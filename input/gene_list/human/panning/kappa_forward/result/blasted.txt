@@ -1,0 +1,6331 @@
+BLASTN 2.7.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/human/panning/kappa_forward/db/db.fasta
+           11 sequences; 242 total letters
+
+
+
+Query= 0
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  5                                                                   44.1    2e-09
+  8                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 5
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTTC  23
+
+
+> 8
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 1
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  5                                                                   44.1    2e-09
+  8                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 5
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTTC  23
+
+
+> 8
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 2
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   38.5    1e-07
+  8                                                                   32.8    6e-06
+  7                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  6                                                                   29.1    8e-05
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCCTC  29
+           ||| |||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACCCAGTCTCCATCC  27
+           |||||||||||||||||
+Sbjct  5   TGACCCAGTCTCCATCC  21
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCC  27
+           ||| ||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 3
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 4
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 5
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 6
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 7
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  8                                                                   44.1    2e-09
+  5                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 8
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTGC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTGC  23
+
+
+> 5
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 8
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 9
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 10
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 11
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  6                                                                   44.1    2e-09
+  0                                                                   34.7    2e-06
+  8                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  7                                                                   31.0    2e-05
+  3                                                                   23.4    0.004
+
+
+> 6
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCCAC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCTTCCAC  23
+
+
+> 0
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCATCC  21
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 7
+Length=21
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCTTCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 3
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGACTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 12
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  6                                                                   44.1    2e-09
+  0                                                                   34.7    2e-06
+  8                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  7                                                                   31.0    2e-05
+  3                                                                   23.4    0.004
+
+
+> 6
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCCAC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCTTCCAC  23
+
+
+> 0
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCATCC  21
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 7
+Length=21
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCTTCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 3
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGACTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 13
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  6                                                                   44.1    2e-09
+  0                                                                   34.7    2e-06
+  8                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  7                                                                   31.0    2e-05
+  3                                                                   23.4    0.004
+
+
+> 6
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCCAC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCTTCCAC  23
+
+
+> 0
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCTTCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCATCC  21
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 7
+Length=21
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCTTCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 3
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGACTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 14
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 15
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 16
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   40.3    3e-08
+  7                                                                   38.5    1e-07
+  8                                                                   34.7    2e-06
+  5                                                                   34.7    2e-06
+  6                                                                   31.0    2e-05
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCCTC  23
+
+
+> 7
+Length=21
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  8   GGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||||||
+Sbjct  2   GGATGACCCAGTCTCCATCC  21
+
+
+> 8
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 17
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   36.6    4e-07
+  8                                                                   32.8    6e-06
+  7                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  6                                                                   29.1    8e-05
+
+
+> 0
+Length=23
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 21/22 (95%), Gaps = 0/22 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCCT  28
+           ||| ||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCT  22
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACCCAGTCTCCATCC  27
+           |||||||||||||||||
+Sbjct  5   TGACCCAGTCTCCATCC  21
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCC  27
+           ||| ||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 18
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 19
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  5                                                                   44.1    2e-09
+  8                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 5
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTTC  23
+
+
+> 8
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 20
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  5                                                                   44.1    2e-09
+  8                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 5
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTTC  23
+
+
+> 8
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 21
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   38.5    1e-07
+  8                                                                   32.8    6e-06
+  7                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  6                                                                   29.1    8e-05
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCCTC  29
+           ||| |||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACCCAGTCTCCATCC  27
+           |||||||||||||||||
+Sbjct  5   TGACCCAGTCTCCATCC  21
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCC  27
+           ||| ||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 22
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   38.5    1e-07
+  8                                                                   32.8    6e-06
+  7                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  6                                                                   29.1    8e-05
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 22/23 (96%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCCTC  29
+           ||| |||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACCCAGTCTCCATCC  27
+           |||||||||||||||||
+Sbjct  5   TGACCCAGTCTCCATCC  21
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 19/20 (95%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATC  26
+           ||| ||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGTTGACCCAGTCTCCATCC  27
+           ||| ||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 23
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 24
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 25
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  8                                                                   44.1    2e-09
+  5                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  7                                                                   34.7    2e-06
+  6                                                                   32.8    6e-06
+  3                                                                   25.3    0.001
+
+
+> 8
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCTGC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCTGC  23
+
+
+> 5
+Length=23
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCT  27
+           |||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCT  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCC  23
+           |||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 26
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 27
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    2e-09
+  8                                                                   38.5    1e-07
+  5                                                                   38.5    1e-07
+  7                                                                   36.6    4e-07
+  6                                                                   34.7    2e-06
+  3                                                                   25.3    0.001
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATC  26
+           ||||||||||||||||||||
+Sbjct  1   CAGATGACCCAGTCTCCATC  20
+
+
+> 7
+Length=21
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCC  21
+
+
+> 6
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   CAGATGACCCAGTCTCCATCC  27
+           ||||||||||||||||| |||
+Sbjct  1   CAGATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 28
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  7                                                                   34.7    2e-06
+  0                                                                   34.7    2e-06
+  8                                                                   32.8    6e-06
+  5                                                                   32.8    6e-06
+  6                                                                   29.1    8e-05
+  3                                                                   29.1    8e-05
+
+
+> 7
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  8   GGATGACCCAGTCTCCAT  25
+           ||||||||||||||||||
+Sbjct  2   GGATGACCCAGTCTCCAT  19
+
+
+> 0
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATTCTC  29
+           ||||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCATCCTC  23
+
+
+> 8
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCAT  25
+           |||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCAT  19
+
+
+> 5
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCAT  25
+           |||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCAT  19
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCC  23
+           |||||||||||||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+> 3
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATTCTC  29
+           |||||||||| ||||| ||||
+Sbjct  3   GATGACCCAGACTCCACTCTC  23
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 29
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  7                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  8                                                                   34.7    2e-06
+  5                                                                   34.7    2e-06
+  6                                                                   31.0    2e-05
+  3                                                                   25.3    0.001
+
+
+> 7
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   TGGATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||||
+Sbjct  1   TGGATGACCCAGTCTCCATCC  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCCT  28
+           ||||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCCT  22
+
+
+> 8
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 30
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  7                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  8                                                                   34.7    2e-06
+  5                                                                   34.7    2e-06
+  6                                                                   31.0    2e-05
+  3                                                                   25.3    0.001
+
+
+> 7
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   TGGATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||||
+Sbjct  1   TGGATGACCCAGTCTCCATCC  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCCT  28
+           ||||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCCT  22
+
+
+> 8
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 31
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  7                                                                   40.3    3e-08
+  0                                                                   38.5    1e-07
+  8                                                                   34.7    2e-06
+  5                                                                   34.7    2e-06
+  6                                                                   31.0    2e-05
+  3                                                                   25.3    0.001
+
+
+> 7
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   TGGATGACCCAGTCTCCATCC  27
+           |||||||||||||||||||||
+Sbjct  1   TGGATGACCCAGTCTCCATCC  21
+
+
+> 0
+Length=23
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCCT  28
+           ||||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATCCT  22
+
+
+> 8
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 5
+Length=23
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATC  26
+           ||||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCATC  20
+
+
+> 6
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCATCC  27
+           ||||||||||||||| |||
+Sbjct  3   GATGACCCAGTCTCCTTCC  21
+
+
+> 3
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGACTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 32
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 33
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   46.0    7e-10
+  3                                                                   32.8    6e-06
+  4                                                                   29.1    8e-05
+  10                                                                  19.7    0.053
+  9                                                                   19.7    0.053
+
+
+> 1
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 7e-10
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTCC  30
+           ||||||||||||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CAGTCTCCAC  148
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 3
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCA  18
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  GCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  GCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 34
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   32.8    6e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTC  23
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CAGTCTCCAC  148
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 35
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   32.8    6e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTC  23
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CAGTCTCCAC  148
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 36
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   46.0    7e-10
+  3                                                                   32.8    6e-06
+  4                                                                   29.1    8e-05
+
+
+> 1
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 7e-10
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTCC  30
+           ||||||||||||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+> 3
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 37
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   46.0    7e-10
+  3                                                                   32.8    6e-06
+  4                                                                   29.1    8e-05
+
+
+> 1
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 7e-10
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTCC  30
+           ||||||||||||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+> 3
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 38
+
+Length=305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+  10                                                                  19.7    0.054
+  9                                                                   19.7    0.054
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  142  CAGTCTCCAC  151
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  141  GCAGTCTCCA  150
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  141  GCAGTCTCCA  150
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45738
+
+
+Query= 39
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  140  CAGTCTCCACACTCC  154
+            |||||||||| ||||
+Sbjct  10   CAGTCTCCACTCTCC  24
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 40
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  140  CAGTCTCCACGCTCC  154
+            |||||||||| ||||
+Sbjct  10   CAGTCTCCACTCTCC  24
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 41
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  140  CAGTCTCCACGCTCC  154
+            |||||||||| ||||
+Sbjct  10   CAGTCTCCACTCTCC  24
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CCAGTCTCCA  148
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 42
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   46.0    7e-10
+  3                                                                   32.8    6e-06
+  4                                                                   29.1    8e-05
+  10                                                                  19.7    0.053
+  9                                                                   19.7    0.053
+
+
+> 1
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 7e-10
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTCC  30
+           ||||||||||||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CAGTCTCCAC  148
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 3
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCA  18
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  GCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  GCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 43
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   32.8    6e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTC  23
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 44
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   32.8    6e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTC  23
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  139  CAGTCTCCAC  148
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.053
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  138  CCAGTCTCCA  147
+            ||||||||||
+Sbjct  9    CCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 45
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   46.0    7e-10
+  3                                                                   32.8    6e-06
+  4                                                                   29.1    8e-05
+
+
+> 1
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 7e-10
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTCC  30
+           ||||||||||||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+> 3
+Length=23
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 21/23 (91%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCACTCTC  29
+           |||||||| ||| ||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45276
+
+
+Query= 46
+
+Length=305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  3                                                                   44.1    2e-09
+  1                                                                   34.7    2e-06
+  8                                                                   25.3    0.001
+  7                                                                   25.3    0.001
+  5                                                                   25.3    0.001
+  0                                                                   25.3    0.001
+  6                                                                   23.4    0.004
+  10                                                                  19.7    0.054
+  9                                                                   19.7    0.054
+
+
+> 3
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 2e-09
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTC  29
+           |||||||||||||||||||||||
+Sbjct  1   GTGATGACCCAGACTCCACTCTC  23
+
+
+> 1
+Length=24
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 22/24 (92%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGACTCCACTCTCC  30
+           |||||||| ||| |||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCACTCTCC  24
+
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  142  CAGTCTCCAC  151
+            ||||||||||
+Sbjct  10   CAGTCTCCAC  19
+
+
+> 8
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCCA  24
+           |||||||||| |||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGACTCC  23
+           |||||||||| ||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  141  GCAGTCTCCA  150
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  141  GCAGTCTCCA  150
+            ||||||||||
+Sbjct  9    GCAGTCTCCA  18
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45738
+
+
+Query= 47
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   40.3    3e-08
+  9                                                                   31.0    2e-05
+  4                                                                   25.3    0.001
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAGCC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 48
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   40.3    3e-08
+  9                                                                   31.0    2e-05
+  4                                                                   25.3    0.001
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAGCC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 49
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9                                                                   31.0    2e-05
+  2                                                                   29.1    8e-05
+  10                                                                  27.2    3e-04
+  4                                                                   25.3    0.001
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||||||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAGCC  27
+           ||| |||| ||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 10
+Length=20
+
+ Score = 27.2 bits (14),  Expect = 3e-04
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAGC  26
+           ||||||||||||||
+Sbjct  7   ACGCAGTCTCCAGC  20
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 50
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9                                                                   38.5    1e-07
+  2                                                                   31.0    2e-05
+  10                                                                  25.3    0.001
+  4                                                                   25.3    0.001
+
+
+> 9
+Length=20
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAGG  26
+           ||||||||||||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAGG  20
+
+
+> 2
+Length=21
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 13/13 (100%), Gaps = 0/13 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAG  25
+           |||||||||||||
+Sbjct  7   ACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 43428
+
+
+Query= 51
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   27.2    3e-04
+  1                                                                   25.3    0.001
+
+
+> 2
+Length=21
+
+ Score = 27.2 bits (14),  Expect = 3e-04
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACACAGTCTCCA  24
+           ||||||||||||||
+Sbjct  5   TGACACAGTCTCCA  18
+
+
+> 1
+Length=24
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 15/16 (94%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  10  ATGACACAGTCTCCAC  25
+           ||||| ||||||||||
+Sbjct  4   ATGACTCAGTCTCCAC  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 43428
+
+
+Query= 52
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   40.3    3e-08
+  9                                                                   31.0    2e-05
+  4                                                                   25.3    0.001
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAGCC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 53
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   40.3    3e-08
+  9                                                                   31.0    2e-05
+  4                                                                   25.3    0.001
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAGCC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 54
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   40.3    3e-08
+  9                                                                   31.0    2e-05
+  4                                                                   25.3    0.001
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAGCC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           |||||||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACACAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 55
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9                                                                   31.0    2e-05
+  2                                                                   29.1    8e-05
+  10                                                                  27.2    3e-04
+  4                                                                   25.3    0.001
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||||||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAGCC  27
+           ||| |||| ||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 10
+Length=20
+
+ Score = 27.2 bits (14),  Expect = 3e-04
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAGC  26
+           ||||||||||||||
+Sbjct  7   ACGCAGTCTCCAGC  20
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 56
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9                                                                   31.0    2e-05
+  2                                                                   29.1    8e-05
+  10                                                                  27.2    3e-04
+  4                                                                   25.3    0.001
+
+
+> 9
+Length=20
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||||||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAGCC  27
+           ||| |||| ||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 10
+Length=20
+
+ Score = 27.2 bits (14),  Expect = 3e-04
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAGC  26
+           ||||||||||||||
+Sbjct  7   ACGCAGTCTCCAGC  20
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACGCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 57
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  9                                                                   36.6    4e-07
+  2                                                                   34.7    2e-06
+  10                                                                  27.2    3e-04
+  4                                                                   25.3    0.001
+
+
+> 9
+Length=20
+
+ Score = 36.6 bits (19),  Expect = 4e-07
+ Identities = 19/19 (100%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAG  25
+           |||||||||||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 34.7 bits (18),  Expect = 2e-06
+ Identities = 20/21 (95%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAGCC  27
+           |||||||| ||||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAGCC  21
+
+
+> 10
+Length=20
+
+ Score = 27.2 bits (14),  Expect = 3e-04
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAGC  26
+           ||||||||||||||
+Sbjct  7   ACGCAGTCTCCAGC  20
+
+
+> 4
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGTTGACGCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 43428
+
+
+Query= 58
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  2                                                                   32.8    6e-06
+  9                                                                   23.4    0.004
+  4                                                                   23.4    0.004
+  10                                                                  21.6    0.014
+
+
+> 2
+Length=21
+
+ Score = 32.8 bits (17),  Expect = 6e-06
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACACAGTCTCCAGCC  27
+           |||||||||||||||||
+Sbjct  5   TGACACAGTCTCCAGCC  21
+
+
+> 9
+Length=20
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACACAGTCTCCAG  25
+           |||| ||||||||||
+Sbjct  5   TGACGCAGTCTCCAG  19
+
+
+> 4
+Length=21
+
+ Score = 23.4 bits (12),  Expect = 0.004
+ Identities = 14/15 (93%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  11  TGACACAGTCTCCAG  25
+           |||| ||||||||||
+Sbjct  5   TGACTCAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 43428
+
+
+Query= 59
+
+Length=305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  8                                                                   31.0    2e-05
+  7                                                                   31.0    2e-05
+  5                                                                   31.0    2e-05
+  0                                                                   31.0    2e-05
+  6                                                                   29.1    8e-05
+  4                                                                   29.1    8e-05
+  3                                                                   29.1    8e-05
+  9                                                                   25.3    0.001
+  2                                                                   25.3    0.001
+  10                                                                  19.7    0.054
+
+
+> 8
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           ||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 7
+Length=21
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           ||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 5
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           ||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 0
+Length=23
+
+ Score = 31.0 bits (16),  Expect = 2e-05
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCCA  24
+           ||||||||||||||||
+Sbjct  3   GATGACCCAGTCTCCA  18
+
+
+> 6
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  9   GATGACCCAGTCTCC  23
+           |||||||||||||||
+Sbjct  3   GATGACCCAGTCTCC  17
+
+
+> 4
+Length=21
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGTCTCCAGAC  27
+           ||| |||| ||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAGAC  21
+
+
+> 3
+Length=23
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGTCTCCA  24
+           |||||||||||| |||||
+Sbjct  1   GTGATGACCCAGACTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGATGACCCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.054
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 45738
+
+
+Query= 60
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  10                                                                  38.5    1e-07
+  9                                                                   25.3    0.001
+  2                                                                   21.6    0.014
+  4                                                                   19.7    0.051
+
+
+> 10
+Length=20
+
+ Score = 38.5 bits (20),  Expect = 1e-07
+ Identities = 20/20 (100%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  7   ACACTCACGCAGTCTCCAGC  26
+           ||||||||||||||||||||
+Sbjct  1   ACACTCACGCAGTCTCCAGC  20
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 13/13 (100%), Gaps = 0/13 (0%)
+ Strand=Plus/Plus
+
+Query  13  ACGCAGTCTCCAG  25
+           |||||||||||||
+Sbjct  7   ACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 21.6 bits (11),  Expect = 0.014
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAGC  26
+           |||||||||||
+Sbjct  10  CAGTCTCCAGC  20
+
+
+> 4
+Length=21
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 61
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4                                                                   40.3    3e-08
+  1                                                                   29.1    8e-05
+  9                                                                   25.3    0.001
+  2                                                                   25.3    0.001
+  10                                                                  19.7    0.051
+
+
+> 4
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAGAC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAGAC  21
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 1
+Length=24
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 62
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4                                                                   40.3    3e-08
+  1                                                                   29.1    8e-05
+  9                                                                   25.3    0.001
+  2                                                                   25.3    0.001
+  10                                                                  19.7    0.051
+
+
+> 4
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAGAC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAGAC  21
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 1
+Length=24
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 63
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4                                                                   40.3    3e-08
+  1                                                                   29.1    8e-05
+  9                                                                   25.3    0.001
+  2                                                                   25.3    0.001
+  10                                                                  19.7    0.051
+
+
+> 4
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAGAC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAGAC  21
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 1
+Length=24
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+Query= 64
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4                                                                   40.3    3e-08
+  1                                                                   29.1    8e-05
+  9                                                                   25.3    0.001
+  2                                                                   25.3    0.001
+  10                                                                  19.7    0.051
+
+
+> 4
+Length=21
+
+ Score = 40.3 bits (21),  Expect = 3e-08
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAGAC  27
+           |||||||||||||||||||||
+Sbjct  1   GTGCTGACTCAGTCTCCAGAC  21
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 1
+Length=24
+
+ Score = 29.1 bits (15),  Expect = 8e-05
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCA  24
+           ||| ||||||||||||||
+Sbjct  1   GTGATGACTCAGTCTCCA  18
+
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  123  TCAGTCTCCA  132
+            ||||||||||
+Sbjct  9    TCAGTCTCCA  18
+
+
+> 9
+Length=20
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACGCAGTCTCCAG  19
+
+
+> 2
+Length=21
+
+ Score = 25.3 bits (13),  Expect = 0.001
+ Identities = 17/19 (89%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  7   GTGCTGACTCAGTCTCCAG  25
+           ||| |||| ||||||||||
+Sbjct  1   GTGTTGACACAGTCTCCAG  19
+
+
+> 10
+Length=20
+
+ Score = 19.7 bits (10),  Expect = 0.051
+ Identities = 10/10 (100%), Gaps = 0/10 (0%)
+ Strand=Plus/Plus
+
+Query  16  CAGTCTCCAG  25
+           ||||||||||
+Sbjct  10  CAGTCTCCAG  19
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 42966
+
+
+  Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/human/panning/kappa_forward/db/db.fasta
+    Posted date:  Jan 18, 2021  12:15 AM
+  Number of letters in database: 242
+  Number of sequences in database:  11
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 1, Extension: 2

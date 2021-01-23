@@ -1,0 +1,185 @@
+BLASTN 2.7.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/mouse/NGS_and_panning/lambda_forward/db/db.fasta
+           2 sequences; 49 total letters
+
+
+
+Query= 0
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    5e-10
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 5e-10
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  1   CAGGCTGTTGTGACTCAGGAATC  23
+           |||||||||||||||||||||||
+Sbjct  1   CAGGCTGTTGTGACTCAGGAATC  23
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 10045
+
+
+Query= 1
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    5e-10
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 5e-10
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  1   CAGGCTGTTGTGACTCAGGAATC  23
+           |||||||||||||||||||||||
+Sbjct  1   CAGGCTGTTGTGACTCAGGAATC  23
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 10045
+
+
+Query= 2
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    5e-10
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 5e-10
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  1   CAGGCTGTTGTGACTCAGGAATC  23
+           |||||||||||||||||||||||
+Sbjct  1   CAGGCTGTTGTGACTCAGGAATC  23
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 10045
+
+
+Query= 3
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   44.1    5e-10
+
+
+> 0
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 5e-10
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Plus
+
+Query  1   CAGGCTGTTGTGACTCAGGAATC  23
+           |||||||||||||||||||||||
+Sbjct  1   CAGGCTGTTGTGACTCAGGAATC  23
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 10045
+
+
+Query= 4
+
+Length=313
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   49.7    1e-11
+
+
+> 1
+Length=26
+
+ Score = 49.7 bits (26),  Expect = 1e-11
+ Identities = 26/26 (100%), Gaps = 0/26 (0%)
+ Strand=Plus/Plus
+
+Query  1   CAACTTGTGCTCACTCAGTCATCTTC  26
+           ||||||||||||||||||||||||||
+Sbjct  1   CAACTTGTGCTCACTCAGTCATCTTC  26
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 10710
+
+
+  Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/mouse/NGS_and_panning/lambda_forward/db/db.fasta
+    Posted date:  Jan 18, 2021  12:30 AM
+  Number of letters in database: 49
+  Number of sequences in database:  2
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 1, Extension: 2

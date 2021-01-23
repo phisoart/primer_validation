@@ -1,0 +1,121 @@
+BLASTN 2.7.1+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/mouse/NGS_and_panning/lambda_reverse/db/db.fasta
+           2 sequences; 47 total letters
+
+
+
+Query= 0
+
+Length=38
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  0                                                                   46.0    2e-11
+
+
+> 0
+Length=24
+
+ Score = 46.0 bits (24),  Expect = 2e-11
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Minus
+
+Query  14  GGAGGAACCAAACTGACTGTCCTA  37
+           ||||||||||||||||||||||||
+Sbjct  24  GGAGGAACCAAACTGACTGTCCTA  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 1326
+
+
+Query= 1
+
+Length=38
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   44.1    7e-11
+
+
+> 1
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 7e-11
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  15  GTGGAACCAAGGTCACTGTCCTA  37
+           |||||||||||||||||||||||
+Sbjct  23  GTGGAACCAAGGTCACTGTCCTA  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 1326
+
+
+Query= 2
+
+Length=38
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  1                                                                   44.1    7e-11
+
+
+> 1
+Length=23
+
+ Score = 44.1 bits (23),  Expect = 7e-11
+ Identities = 23/23 (100%), Gaps = 0/23 (0%)
+ Strand=Plus/Minus
+
+Query  15  GTGGAACCAAGGTCACTGTCCTA  37
+           |||||||||||||||||||||||
+Sbjct  23  GTGGAACCAAGGTCACTGTCCTA  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.30    0.520    0.930 
+
+Effective search space used: 1326
+
+
+  Database: /home/Backup2/Protocol/primer_optimization/designed_primers/validati
+on/mouse/NGS_and_panning/lambda_reverse/db/db.fasta
+    Posted date:  Jan 18, 2021  12:32 AM
+  Number of letters in database: 47
+  Number of sequences in database:  2
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 1, Extension: 2

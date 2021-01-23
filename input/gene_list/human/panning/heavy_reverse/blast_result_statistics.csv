@@ -1,0 +1,13 @@
+id,gene_name,primer_0,primer_1,primer_2,primer_3,gene_sum
+0,IGHJ1*01,,,,,
+1,IGHJ2*01,,,,,
+2,IGHJ3*01,,,,,
+3,IGHJ3*02,,,,,
+4,IGHJ4*01,,,,,
+5,IGHJ4*02,,,,,
+6,IGHJ4*03,,,,,
+7,IGHJ5*01,,,,,
+8,IGHJ5*02,,,,,
+9,IGHJ6*01,,,,,
+10,IGHJ6*04,,,,,
+,primer_sum,,,,,
